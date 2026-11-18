@@ -1,0 +1,125 @@
+
+# ==========================================
+# TAREFA DO PROFESSOR DE PORTUGUÊS
+# ==========================================
+
+terefa_professor_portugues:
+  description: >
+    Desenvolva uma aula completa de Língua Portuguesa sobre o assunto:
+    {topic}.
+
+    A aula deverá ser direcionada para estudantes iniciantes.
+
+    Organize o conteúdo seguindo esta estrutura:
+
+    1. Apresentação do assunto.
+    2. Explicação dos conceitos fundamentais.
+    3. Exemplos práticos e contextualizados.
+    4. Aplicações no cotidiano.
+    5. Exercícios para fixação.
+    6. Gabarito comentado.
+    7. Resumo dos principais aprendizados.
+
+    Utilize linguagem simples, explicações detalhadas e uma
+    metodologia de ensino progressiva.
+
+  expected_output: >
+    Uma aula completa de Língua Portuguesa, organizada em tópicos,
+    com explicações didáticas, exemplos, exercícios e gabarito
+    comentado, pronta para ser utilizada como material de estudo.
+
+# ==========================================
+# TAREFA DO PROFESSOR DE MATEMÁTICA
+# ==========================================
+
+terefa_professor_matematica:
+  description: >
+    Desenvolva uma aula completa de Matemática sobre o assunto:
+    {topic}.
+
+    A aula deverá ser direcionada para estudantes iniciantes.
+
+    Organize o conteúdo seguindo esta estrutura:
+
+    1. Introdução ao assunto.
+    2. Explicação dos conceitos matemáticos.
+    3. Apresentação das fórmulas, quando necessárias.
+    4. Resolução de exemplos passo a passo.
+    5. Aplicações práticas no cotidiano.
+    6. Lista de exercícios progressivos.
+    7. Gabarito com resolução detalhada.
+    8. Resumo dos conceitos fundamentais.
+
+    Não pule etapas dos cálculos. Explique o raciocínio utilizado
+    em cada resolução.
+
+  expected_output: >
+    Uma aula completa de Matemática, contendo conceitos,
+    fórmulas, exemplos resolvidos passo a passo, exercícios
+    progressivos e gabarito comentado.
+
+# ==========================================
+# TAREFA DO PROFESSOR DE CIÊNCIAS
+# ==========================================
+
+terefa_professor_ciencia:
+  description: >
+    Desenvolva uma aula completa de Ciências sobre o assunto:
+    {topic}.
+
+    A aula deverá ser direcionada para estudantes iniciantes.
+
+    Organize o conteúdo seguindo esta estrutura:
+
+    1. Introdução ao tema científico.
+    2. Explicação dos conceitos fundamentais.
+    3. Fundamentos e princípios científicos.
+    4. Exemplos de fenômenos relacionados ao assunto.
+    5. Aplicações práticas no cotidiano.
+    6. Curiosidades e descobertas científicas.
+    7. Exercícios para fixação.
+    8. Respostas comentadas.
+    9. Resumo dos principais aprendizados.
+
+    Priorize informações cientificamente corretas e explicações
+    acessíveis, sem comprometer a precisão dos conceitos.
+
+  expected_output: >
+    Uma aula completa de Ciências, com explicações científicas,
+    exemplos práticos, aplicações cotidianas, curiosidades,
+    exercícios e respostas comentadas.
+
+# ==========================================
+# TAREFA DO ANALISTA EDUCACIONAL
+# ==========================================
+
+tarefa_reportada:
+  description: >
+    Analise os materiais produzidos pelos professores de Língua
+    Portuguesa, Matemática e Ciências.
+
+    Sua responsabilidade é consolidar os resultados anteriores
+    em um relatório educacional profissional.
+
+    Execute as seguintes atividades:
+
+    1. Analise os conteúdos produzidos pelos professores.
+    2. Verifique a clareza e a organização das explicações.
+    3. Identifique possíveis erros ou inconsistências.
+    4. Organize os conteúdos em uma estrutura padronizada.
+    5. Preserve os exemplos e exercícios importantes.
+    6. Produza uma conclusão sobre os conteúdos desenvolvidos.
+
+    Não invente informações para preencher lacunas.
+    Caso identifique alguma inconsistência, sinalize-a no relatório.
+
+  expected_output: >
+    Um relatório educacional completo em Markdown,
+    contendo os materiais consolidados dos três professores,
+    organizados por disciplina, com títulos, subtítulos,
+    explicações, exemplos, exercícios e conclusão.
+
+  context:
+    - terefa_professor_portugues
+    - terefa_professor_matematica
+    - terefa_professor_ciencia
